@@ -1,0 +1,34 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Learn.co Educational Content License	/Users/manon/Development/code/guided-module-one-project-assessment-london-web-career-031119/LICENSE.md	/^#Learn.co Educational Content License$/;"	function	line:1
+Goals (Minimum Requirements)	/Users/manon/Development/code/guided-module-one-project-assessment-london-web-career-031119/README.md	/^## Goals (Minimum Requirements)$/;"	function	line:10
+Project Overview (Timeline)	/Users/manon/Development/code/guided-module-one-project-assessment-london-web-career-031119/README.md	/^## Project Overview (Timeline)$/;"	function	line:28
+Phase 1: The Setup	/Users/manon/Development/code/guided-module-one-project-assessment-london-web-career-031119/README.md	/^### Phase 1: The Setup$/;"	function	line:30
+Planning	/Users/manon/Development/code/guided-module-one-project-assessment-london-web-career-031119/README.md	/^#### Planning$/;"	function	line:36
+The Pitch	/Users/manon/Development/code/guided-module-one-project-assessment-london-web-career-031119/README.md	/^#### The Pitch$/;"	function	line:62
+Setup	/Users/manon/Development/code/guided-module-one-project-assessment-london-web-career-031119/README.md	/^#### Setup$/;"	function	line:77
+Phase 2: Scaffolding	/Users/manon/Development/code/guided-module-one-project-assessment-london-web-career-031119/README.md	/^### Phase 2: Scaffolding$/;"	function	line:99
+Data Models	/Users/manon/Development/code/guided-module-one-project-assessment-london-web-career-031119/README.md	/^#### Data Models$/;"	function	line:103
+Migrations	/Users/manon/Development/code/guided-module-one-project-assessment-london-web-career-031119/README.md	/^#### Migrations$/;"	function	line:109
+Seeding the Database	/Users/manon/Development/code/guided-module-one-project-assessment-london-web-career-031119/README.md	/^#### Seeding the Database$/;"	function	line:135
+Phase 3: Execution	/Users/manon/Development/code/guided-module-one-project-assessment-london-web-career-031119/README.md	/^### Phase 3: Execution$/;"	function	line:165
+Welcome to the CLI	/Users/manon/Development/code/guided-module-one-project-assessment-london-web-career-031119/README.md	/^#### Welcome to the CLI$/;"	function	line:169
+Request - Input	/Users/manon/Development/code/guided-module-one-project-assessment-london-web-career-031119/README.md	/^#### Request - Input$/;"	function	line:198
+What could we put here to allow a user to type a response?	/Users/manon/Development/code/guided-module-one-project-assessment-london-web-career-031119/README.md	/^# What could we put here to allow a user to type a response?$/;"	function	line:209
+Response - Output	/Users/manon/Development/code/guided-module-one-project-assessment-london-web-career-031119/README.md	/^#### Response - Output$/;"	function	line:214
+What could we put here to allow a user to type a response?	/Users/manon/Development/code/guided-module-one-project-assessment-london-web-career-031119/README.md	/^# What could we put here to allow a user to type a response?$/;"	function	line:249
+CRUD IT UP!	/Users/manon/Development/code/guided-module-one-project-assessment-london-web-career-031119/README.md	/^#### CRUD IT UP!$/;"	function	line:312
+Phase 4: Project Review	/Users/manon/Development/code/guided-module-one-project-assessment-london-web-career-031119/README.md	/^### Phase 4: Project Review$/;"	function	line:322
+Phase 5: Freedom	/Users/manon/Development/code/guided-module-one-project-assessment-london-web-career-031119/README.md	/^### Phase 5: Freedom$/;"	function	line:340
+The Real World	/Users/manon/Development/code/guided-module-one-project-assessment-london-web-career-031119/README.md	/^#### The Real World$/;"	function	line:344
+Stretch Goals	/Users/manon/Development/code/guided-module-one-project-assessment-london-web-career-031119/README.md	/^#### Stretch Goals$/;"	function	line:355
+Robustness	/Users/manon/Development/code/guided-module-one-project-assessment-london-web-career-031119/README.md	/^#### Robustness$/;"	function	line:366
+Phase 6: Presentation	/Users/manon/Development/code/guided-module-one-project-assessment-london-web-career-031119/README.md	/^### Phase 6: Presentation$/;"	function	line:376
+Contributing to Learn.co Curriculum	/Users/manon/Development/code/guided-module-one-project-assessment-london-web-career-031119/CONTRIBUTING.md	/^# Contributing to Learn.co Curriculum$/;"	function	line:1
+Raising an Issue to Encourage a Contribution	/Users/manon/Development/code/guided-module-one-project-assessment-london-web-career-031119/CONTRIBUTING.md	/^## Raising an Issue to Encourage a Contribution$/;"	function	line:5
+Submitting a Pull Request to Suggest an Improvement	/Users/manon/Development/code/guided-module-one-project-assessment-london-web-career-031119/CONTRIBUTING.md	/^## Submitting a Pull Request to Suggest an Improvement$/;"	function	line:13
+Why Contribute?	/Users/manon/Development/code/guided-module-one-project-assessment-london-web-career-031119/CONTRIBUTING.md	/^# Why Contribute?$/;"	function	line:25
