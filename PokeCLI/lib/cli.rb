@@ -1,6 +1,7 @@
 class CLI
   require 'pry'
   attr_reader :user
+  attr_accessor :current_selected_pokemon
 
 
   def welcome
@@ -37,11 +38,15 @@ class CLI
   end
 
   def menu
-    puts "Welcome to the Main Menu. Press 1 to do battle!"
+    puts "Welcome to the Main Menu."
+    puts "Press 1 to do battle!"
+    puts "Press 2 to view your Pokedex"
     choice = gets.chomp.to_i
     case choice
     when 1
       self.battle
+    when 2
+      self.pokedex
     end
   end
 
@@ -49,22 +54,26 @@ class CLI
     def select_pokemon
       puts "Woah - I think I saw Team Rocket up ahead! Quick - select your pokemon for battle!"
       @user.pokemons.all.each {|pokemon| puts "#{pokemon.name}"}
-      puts "Type the name of the pokemon you select."
+      puts "Type the name of the pokemon you want to select."
       choice = gets.chomp
-      user_pokemon = Pokemon.find_by(name: choice)
-      puts "Great! You chose #{user_pokemon.name}! Let's get ready!"
-      user_pokemon
+      @current_selected_pokemon = Pokemon.find_by(name: choice)
+      puts "Great! You chose #{@current_selected_pokemon.name}! Let's get ready!"
     end
 
     def random_pokemon
-      Pokemon.order("RANDOM()").first
+      random = Pokemon.order("RANDOM()").first
     end
 
     def battle
-      user_pokemon = select_pokemon
+      select_pokemon
       team_rocket_pokemon = random_pokemon
-      new_battle = Battle.new(user_pokemon, team_rocket_pokemon)
+      new_battle = Battle.new(@user, @current_selected_pokemon, team_rocket_pokemon)
+      new_battle.round_1
+      self.menu
     end
 
+    def pokedex
+
+    end
 
 end
