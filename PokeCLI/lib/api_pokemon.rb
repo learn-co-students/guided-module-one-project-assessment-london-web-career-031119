@@ -5,6 +5,8 @@ def populate_pokemons_table
   url = 'https://pokeapi.co/api/v2/pokemon/'
   response = RestClient.get(url)
   pokeinfo = JSON.parse(response)
+  # pokeinfo["results"].each {|pokemon|
+  #   Pokemon.create ({name: pokemon["name"]}
   # pokeinfo["pokemon_species"].each {|i| Pokemon.create(name: i["name"])}
   new_poke = Pokemon.create(name: pokeinfo["results"][0]["name"])
   url = pokeinfo["results"][0]["url"]
