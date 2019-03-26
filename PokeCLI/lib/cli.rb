@@ -22,11 +22,49 @@ class CLI
     puts "2. Squirtle"
     puts "3. Charmander"
     puts "4. Pikachu"
+    choice = gets.chomp.to_i
+    case choice
+    when 1
+      UserPokemon.create({user: @user, pokemon: Pokemon.find_by(name: "Bulbasaur")})
+    when 2
+      UserPokemon.create({user: @user, pokemon: Pokemon.find_by(name: "Squirtle")})
+    when 3
+      UserPokemon.create({user: @user, pokemon: Pokemon.find_by(name: "Charmander")})
+    when 4
+      UserPokemon.create({user: @user, pokemon: Pokemon.find_by(name: "Pikachu")})
+    end
     self.menu
   end
 
   def menu
-
+    puts "Welcome to the Main Menu. Press 1 to do battle!"
+    choice = gets.chomp.to_i
+    case choice
+    when 1
+      self.battle
+    end
   end
+
+
+    def select_pokemon
+      puts "Woah - I think I saw Team Rocket up ahead! Quick - select your pokemon for battle!"
+      @user.pokemons.all.each {|pokemon| puts "#{pokemon.name}"}
+      puts "Type the name of the pokemon you select."
+      choice = gets.chomp
+      user_pokemon = Pokemon.find_by(name: choice)
+      puts "Great! You chose #{user_pokemon.name}! Let's get ready!"
+      user_pokemon
+    end
+
+    def random_pokemon
+      Pokemon.order("RANDOM()").first
+    end
+
+    def battle
+      user_pokemon = select_pokemon
+      team_rocket_pokemon = random_pokemon
+      new_battle = Battle.new(user_pokemon, team_rocket_pokemon)
+    end
+
 
 end
