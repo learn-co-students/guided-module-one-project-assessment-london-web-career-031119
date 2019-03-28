@@ -1,8 +1,13 @@
-require_relative 'config/environment'
+require_relative './config/environment'
 require 'sinatra/activerecord/rake'
 
-desc 'starts a console'
+desc 'Start our app console'
 task :console do
-  ActiveRecord::Base.logger = Logger.new(STDOUT)
-  Pry.start
+    Pry.start
+end
+
+desc 'Start our app'
+task :run do
+  game = Ui.new
+  game.menu
 end
